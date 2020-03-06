@@ -1,10 +1,10 @@
 replicaCount: 1
 
 image:
-  repository: 107995894928.dkr.ecr.us-west-2.amazonaws.com/sample-microservice
+  repository: dm3nace/person-api
   tag: latest
   pullPolicy: Always
 
 service:
   type: ClusterIP
-  port: 8080
+  port: 9090
